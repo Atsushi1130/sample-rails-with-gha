@@ -35,6 +35,6 @@ jobs:
       # ヘロクにデプロイする
       - uses: akhileshns/heroku-deploy@v3.6.8 # This is the action
         with:
-          heroku_api_key: ${{dfdfc3f1-b4ee-4e64-960f-b78a313db7e2}}
+          heroku_api_key: ${{ dfdfc3f1-b4ee-4e64-960f-b78a313db7e2 }}
           heroku_app_name: "atsushi"
           heroku_email: "atsu.1130.2b@gmail.com"
